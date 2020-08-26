@@ -1,0 +1,38 @@
+/* CSSをリセットする */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headline {
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+}
+
+.header-text {
+  color: #484848;
+}
+
+.main-box1 {
+  display: flex;
+  justify-content: center;
+}
+
+.main-box2 {
+  color: #484848;
+  width: 840px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.main {
+  width: 840px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 0.5px solid grey;
+}
