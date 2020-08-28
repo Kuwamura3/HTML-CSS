@@ -1,0 +1,69 @@
+/* CSSをリセットする */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff00ff;
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > :first-child {
+  margin-right: auto;
+}
+
+.header-box {
+  background-color: #c5baec;
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-left {
+  background-color: #defdc4;
+  width: 300px;
+}
+
+.main-right {
+  background-color: #578f37;
+  padding: 20px;
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.main-box {
+  background-color: #c4f05d;
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #a496f0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-box {
+  background-color: #b4d8eb;
+  width: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+}
